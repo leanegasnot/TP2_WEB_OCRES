@@ -1,13 +1,14 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
 * { 
     font-family: 'My Lucida', Console;
 }
+
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
@@ -19,33 +20,34 @@ a {
 }
 
 .wrapper {
-    padding: 25px 0;
+    padding: 1em 0;
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 0.8em;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 0.05em 0em 0.32em rgb(200, 200, 200);
 }
 
 header .logo-search form  {
     width: 50%;
 }
 
+
+
 header .user {
     float: right;
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.65em;
     color: #89949b;
-    padding-top: 5px;
+    padding-top: 0.25em;
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 0.2em;
 }
-
 
 main article {
     display: inline-block;
@@ -54,13 +56,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.8em;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.9em;
     font-weight: normal;
     color: #828c92;
 }
@@ -70,46 +72,46 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 0.25em;
 }
 
 main header aside img {
-    border: 1px solid #dadada;
+    border: 0.08em solid #dadada;
     border-radius: 50%;
-    box-shadow: 0 0 5px #cecece;
+    box-shadow: 0 0 0.25em #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 1.5em;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.2em;
     font-weight: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 1em 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 0.6em;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 0.8em;
+    padding: 0.75em 0em 0.5em 0em;
+    border-bottom: 0.05em solid #e1e6e9;
+    margin-bottom: 1em;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 1em;
 }
 
 .stats-links a:last-child {
@@ -117,13 +119,13 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -135,15 +137,15 @@ header form {
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
-    height: 28px;
+    height: 1.4em;
     width: 100%;
-    font-size: 13px;
-    padding: 3px 6px 3px 25px;
-    border: 1px solid #d0dde9;
+    font-size: 0.65em;
+    padding: 0.15em 0.3em 0.15em 1.25em;
+    border: 0.05em solid #d0dde9;
     margin: 0;
-    border-radius: 15px;
-    top: 11px;
-    box-shadow: inset 1px 1px 5px #d5d5d5;
+    border-radius: 0.75em;
+    top: 0.55em;
+    box-shadow: inset 0.05em 0.05em 0.25em #d5d5d5;
 }
 
 input.submit {
@@ -151,13 +153,13 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.8em;
     color: #008fd5;
-    border-radius: 5px;
-    border: 1px solid #b8c3c9;
+    border-radius: 0.25em;
+    border: 0.05em solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
-    box-shadow: 1px 1px #d5d5d5;
+    padding: 0.35em 0.5em 0.35em 1.5em;
+    box-shadow: 0.05em 0.05em #d5d5d5;
     background: url("../img/icon/station.png") no-repeat 8px;
     transition: all 0.4s;
 }
@@ -170,52 +172,114 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.75em;
     color: #89949b;
-    margin: 10px 0;
+    margin: 0.5em 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 0.05em solid #cbcbcb;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 0.75em #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top: 0.3em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: 0.2em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 0.25em;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 1em;
+    padding-top: 0.1em;
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0em; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0em; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0em; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0em; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0em; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0em; }
 
 
+@media (max-width : 950px){
+    .recherche
+    {
+      display: none;
+    }
+  }
+  
+@media (max-width : 750px){
+    .share
+    {
+      display: none;
+    }
+  }
+
+  @media (min-width : 1400px){
+    h1
+    {
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+
+    }
+    h3{
+        font-size: 1em;
+
+    }
+  }
+
+  
+@media (min-width : 600px) and (max-width : 1400px){
+    h1
+    {
+        font-size: 1.5em;
+    }
+
+    h2{
+        font-size: 1em;
+
+    }
+    h3{
+        font-size: 0.8em;
+
+    }
+  }
+
+  @media (min-width : 450px) and (max-width : 600px){
+    h1
+    {
+        font-size: 1em;
+    }
+
+    h2{
+        font-size: 0.8em;
+
+    }
+    h3{
+        font-size: 0.8em;
+
+    }
 
 
+}
